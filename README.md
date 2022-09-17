@@ -1,6 +1,6 @@
 # Optimi
 
-[![Java](https://img.shields.io/badge/java-17-ED8B00.svg?logo=java)]([https://www.azul.com/](https://www.oracle.com/kr/java/))
+[![Java](https://img.shields.io/badge/java-17-ED8B00.svg?logo=java)]([https://www.oracle.com/kr/java/)])
 [![Gradle](https://img.shields.io/badge/gradle-7.5.0-02303A.svg?logo=gradle)](https://gradle.org)
 [![Youtube](https://img.shields.io/badge/youtube-유농밀크-red.svg?logo=youtube)](https://www.youtube.com/channel/UCopVwSxedoV4jdr7zDjkmIg)
 
