@@ -31,6 +31,7 @@ CMD.print("라라라");
 JFrame frame = new JFrame("제목")
 frame.setSize(150, 100);
 frame.setLayout(null);
+frame.setVisible(true);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 ```
 #### Optimi를 이용한 코드
