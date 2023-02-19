@@ -1,4 +1,4 @@
-package net.optimi;
+package optimi;
 
 import javax.swing.*;
 import java.awt.*;
@@ -22,17 +22,8 @@ public class OpWin {
         frame.setIconImage(icon);
         return frame;
     }
-    public static void activeFrame(JFrame frame) {
-        frame.setVisible(true);
-    }
-    public static void inactiveFrame(JFrame frame) {
-        frame.setVisible(false);
-    }
-    public static void addCompFrame(JFrame frame, Component component) {
-        frame.add(component);
-    }
-    public static void setIconFrame(JFrame frame, Image icon) {
-        frame.setIconImage(icon);
+    public static void moveComp(Component component, int x, int y) {
+        component.setLocation(component.getX() + x, component.getY() + y);
     }
     public static JButton createButton(String text, int x, int y, int x_size, int y_size, ActionListener event) {
         JButton button = new JButton(text);
