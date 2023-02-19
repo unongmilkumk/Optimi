@@ -22,7 +22,7 @@ public class OpWin {
         return frame;
     }
     
-    public void setLayout(JFrame frame, LayoutManager layout) {
+    public static void setLayout(JFrame frame, LayoutManager layout) {
         frame.setLayout(layout);
     }
     public static void moveComp(Component component, int x, int y) {
