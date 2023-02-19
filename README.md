@@ -39,3 +39,25 @@ frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 JFrame frame = OpWin.createFrame("제목", 150, 100);
 OpWin.activeFrame(frame);
 ```
+* #### 시간 값 얻기
+#### 기존에 써야 하는 코드
+```
+LocalTime.of(LocalTime.now().getHour(), LocalTime.now().getMinute(), LocalTime.now().getSecond()).toString;
+```
+#### Optimi를 이용한 코드
+```
+OpTime.hour_minute_second // 7:34:05 (예시)
+```
+
+* #### 문자열의 특정 부분 값 불러오기
+#### 기존에 써야 하는 코드
+```
+String data = "";
+for (int i = 1; i <= 3 - 1; i++) {
+    data += text.charAt(i);
+}
+```
+#### Optimi를 이용한 코드
+```
+data = gets(text, 1, 3)
+```
